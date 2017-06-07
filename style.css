@@ -1,0 +1,56 @@
+{
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body{
+	background: #777;
+}
+header{
+	background: #ebebeb;
+	width: 60%;
+	padding: 20px;
+	margin-bottom: 10px;
+	margin-left: 20%
+
+
+
+}
+nav{
+	background: #ebebeb;
+	width: 60%;
+	padding: 20px;
+	margin-bottom: 10px;
+	margin-left: 20%
+
+}
+aside{
+	background: #ebebeb;
+	width: 10%;
+	padding: 100px;
+	margin-bottom: 10px;
+	float: right;
+	margin-right: 15%
+
+
+}
+section{
+	background: #ebebeb;
+
+}
+p{
+	background: #ebebeb;
+
+}
+h5{
+	background: #ebebeb;
+
+}
+.art{
+	background: #ebebeb;
+
+}
+footer{
+	background: #ebebeb;
+
+}
