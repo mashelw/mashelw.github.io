@@ -1,56 +1,100 @@
-{
-  box-sizing: border-box;
-  text-align: center;
-}
+
 
 body{
 	background: #777;
+	margin: 10px 195px 95px 155px;
+	padding-top: 9px;
+	font-family: 'Arial', 'helvetica Neue', 'Helvetica', 'sans-serif';
+	font-size: 18px;
+	
 }
+ 
+
+
 header{
 	background: #ebebeb;
-	width: 60%;
-	padding: 20px;
-	margin-bottom: 10px;
-	margin-left: 20%
-
-
+	margin-bottom: 15px;
+	padding:30px;
+	text-align: center;
+	color: #777
 
 }
+
 nav{
 	background: #ebebeb;
-	width: 60%;
-	padding: 20px;
-	margin-bottom: 10px;
-	margin-left: 20%
+	margin-bottom: 15px;
+	padding:30px;
+	text-align: center;
+	color: #777
 
 }
 aside{
 	background: #ebebeb;
-	width: 10%;
-	padding: 100px;
-	margin-bottom: 10px;
+	width: 400px;
+	height: 288px;
 	float: right;
-	margin-right: 15%
-
+	color: #777
 
 }
-section{
+
+.section{
+	position: relative;
+	width: 513px;
+	height: 285px;
+	color: #777;
+	overflow: auto;
 	background: #ebebeb;
+	text-align: center;
 
 }
-p{
+.silly {
+	margin-top: 30px;
+}
+
+.article{
+	position: absolute;
+	height: 190px;
+	width: 490px;
+	background: gray;
+	left: 11px;
+	color: white;
+	text-align: center;
+	bottom: 10px;
+	right: 10px;
+
+}
+
+.header{
+	position: absolute;
 	background: #ebebeb;
+	padding: 10px;
+	width: 442px;
+	bottom: 93px;
+	left: 24px;
 
 }
-h5{
+.paragraph{
+	position: absolute;
+	bottom: 26px;
+	left: 24px;
 	background: #ebebeb;
-
+	padding: 10px;
+	width: 442px;
 }
-.art{
-	background: #ebebeb;
 
-}
 footer{
+	position: fixed;
+	bottom: 30px;
+	left: 154px;
+	width: 940px;
+	padding: 20px;
 	background: #ebebeb;
+	text-align: center;
 
 }
+
+.crazy{
+	margin-bottom: 30px;
+}
+
+
